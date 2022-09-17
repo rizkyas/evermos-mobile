@@ -1,18 +1,18 @@
-id: aa3vtN2lZkCBJwMUzmokzg
+id: y1TwzmIHeEOZVdU91pEiiA
 projectId: cynE__bdGkC8Pkdx8kGrxA
 projectName: evermos mobile
-created: 2022-09-17T21:18:25.4766280Z
+created: 2022-09-17T21:19:04.5178546Z
 protocol: 1
 tests:
 - id: lamg-6DYz0WRqsVF76ERpA
-  name: Shopping Cart
-  description: Add Product to Shopping Cart
+  name: Product Catalog Search & Filter
+  description: Product Catalog Search & Filter
   platform: Android
   type: Mobile
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-09-17T20:57:42.0000000
-  modificationDate: 2022-09-17T21:16:19.0000000
+  modificationDate: 2022-09-17T21:19:04.0000000
   settings:
     automationAssistant: true
     deviceId: QV7107ZC25
