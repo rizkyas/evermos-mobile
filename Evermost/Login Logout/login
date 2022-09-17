@@ -1,0 +1,364 @@
+id: 9z7kVRLoh0OZ1AFXViNN4A
+projectId: cynE__bdGkC8Pkdx8kGrxA
+projectName: evermos mobile
+created: 2022-09-17T16:46:54.1058899Z
+protocol: 1
+tests:
+- id: AD0stV_Lu06TRu7TFLGS9A
+  name: login
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2022-09-15T12:44:57.0000000
+  modificationDate: 2022-09-15T15:58:52.0000000
+  settings:
+    automationAssistant: true
+    deviceId: QV7107ZC25
+    appId: OsPmuF7NzU--AVrA3TDjSg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: OsPmuF7NzU--AVrA3TDjSg
+    androidActivity: com.evermos.evm.MainActivity
+    androidPackage: evermos.evermos.com.evermos
+    name: Evermos
+    platform: Android
+  steps:
+  - id: bMrMIb--HE6IRS-Q5gAF1w
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RkNZVKcvok2pbIFSdDfKSg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: IqTAjXLCr0SblSRlPe_5CQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eJ7dAMrdS0SiD9zZQXqzwg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: oCG2b6o7fkKz5kuVduKo7Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CXCktNTb_kiWu53llbkoeQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: oCG2b6o7fkKz5kuVduKo7Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 81223334444
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: f4JcXPCoik2MwHyGYHlShQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: ERo1qj1l80mWCza3hdRWOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RD--HBp1O0-g3IzaVIoRtA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: ERo1qj1l80mWCza3hdRWOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: password
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dVjKDFcTv0apAv1xs3n5TA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 43vE2lutAkerEVsJXvm2SQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VSfLGVO6N0u_Rx0Xx5XTcg
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: bAwBWX4Iwk6gTZJfp_7yZw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4MUiV5OY5kKncg-twPqyWg
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Addon
+    elementId: aDCEDJyKjUueL1V66R5k_A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: rd_oNsv8yUeDGLbWhYFLWA
+      source: Store
+      addonId: 3nqfr8Djt0KB-sz43jU-0g
+    parameterMaps:
+    - name: direction
+      value: ''
+      direction: Input
+    - name: amountOfSwipes
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gLZsnfqlJUWSbM54xcezhg
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: aDCEDJyKjUueL1V66R5k_A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: IqTAjXLCr0SblSRlPe_5CQ
+  name: Masuk dengan kata sandi
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.Button[@content-desc = 'Masuk dengan kata sandi']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[3]/android.widget.Button
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[3]/android.widget.Button[1]
+    priority: 2
+- id: oCG2b6o7fkKz5kuVduKo7Q
+  name: 'Contoh: 87722200714'
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: "//android.widget.EditText[@text = 'Contoh: 87722200714']"
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.widget.EditText[1]
+    priority: 2
+- id: ERo1qj1l80mWCza3hdRWOQ
+  name: Ketik kata sandi
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Ketik kata sandi']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.widget.EditText[2]
+    priority: 2
+- id: 43vE2lutAkerEVsJXvm2SQ
+  name: Masuk
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.Button[@content-desc = 'Masuk']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[3]/android.widget.Button
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[3]/android.widget.Button[1]
+    priority: 2
+- id: bAwBWX4Iwk6gTZJfp_7yZw
+  name: >-
+    Akun
+
+    Tab 5 of 51
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDY
+    name: android.view.View
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //android.view.View[@content-desc = 'Akun
+
+      Tab 5 of 5']
+    priority: 0
+  - name: XPATH
+    value: //android.view.View[5]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[5]
+    priority: 2
+- id: aDCEDJyKjUueL1V66R5k_A
+  name: Keluar Aplikasi
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.ImageView[@content-desc = 'Keluar Aplikasi']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ImageView[6]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[6]
+    priority: 2
+projectParameters: []
+addons:
+- id: 3nqfr8Djt0KB-sz43jU-0g
+  source: Store
+  version: 2.13
+  actions:
+  - id: rd_oNsv8yUeDGLbWhYFLWA
+    name: Swipe to Element (Up/Down)
+    description: Swipe {{direction}} at Most {{amountOfSwipes}} Times Until Element is Displayed
+    className: io.testproject.addons.mobile.elementfinder.SimpleSwipes.SimpleAndroid.SwipeUntilElementAndroidVertical
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: B6B91ACF82697C8B28DA2A4ECB3E43F8A27147ABFB3553BB0D7FB06E0C96F59E
