@@ -1,7 +1,7 @@
-id: RLlHwj3uQUeyfMEzRSKVNQ
+id: qd8ba9JxNkm1cemty5zTzg
 projectId: cynE__bdGkC8Pkdx8kGrxA
 projectName: evermos mobile
-created: 2022-09-17T22:25:03.4547825Z
+created: 2022-09-17T22:29:41.1085893Z
 protocol: 1
 tests:
 - id: lamg-6DYz0WRqsVF76ERpA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-09-17T20:57:42.0000000
-  modificationDate: 2022-09-17T22:23:10.0000000
+  modificationDate: 2022-09-17T22:27:46.0000000
   settings:
     automationAssistant: true
     deviceId: QV7107ZC25
@@ -395,37 +395,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: T3Y_bnkr-U2L020UxvThFQ
+  - id: c1TXKoLLVEy8U6TIDgU4-w
     enabled: true
     invertResult: false
     order: 19
     repeat: 1
-    type: Addon
-    elementId: UomskhqvAUeTpyrq0F162A
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: ibLGpWMVl0WpymA3IuLd9A
-      source: Store
-      addonId: Pc5arX-ClUCFkcuhm-r25A
-    parameterMaps:
-    - name: keys
-      value: DKI JAKARTA
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: kCY-nGLELEWc8QhMlHeVog
-    enabled: true
-    invertResult: false
-    order: 20
-    repeat: 1
     type: Action
-    elementId: 1iIRbblB-k-uq84Ykas93w
+    elementId: VlFoyB29ZEKOGlMrVllD1g
     settings:
       sleepTime: -1
       timeout: -1
@@ -442,7 +418,7 @@ tests:
   - id: yrsqB_mEZk21s_-YG3cypg
     enabled: true
     invertResult: false
-    order: 21
+    order: 20
     repeat: 1
     type: Action
     elementId: nAOw0c3zW0e3UgVNaiU6_Q
@@ -462,7 +438,7 @@ tests:
   - id: WAI4hsERWk2TA0ctn_0a8w
     enabled: true
     invertResult: false
-    order: 22
+    order: 21
     repeat: 1
     type: Action
     elementId: AJ_z2R_9kEa-jpfj7cJYtg
@@ -722,22 +698,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]
     priority: 1
-- id: 1iIRbblB-k-uq84Ykas93w
-  name: DKI Jakarta
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDg
-    name: android.widget.CheckBox
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.CheckBox[@content-desc = 'DKI Jakarta']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.CheckBox[1]
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.CheckBox[1]
-    priority: 2
 - id: nAOw0c3zW0e3UgVNaiU6_Q
   name: Simpan
   type:
@@ -770,18 +730,21 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]
     priority: 2
+- id: VlFoyB29ZEKOGlMrVllD1g
+  name: Bali
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDg
+    name: android.widget.CheckBox
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.CheckBox[@content-desc = 'Bali']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.CheckBox[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.CheckBox[1]
+    priority: 2
 projectParameters: []
-addons:
-- id: Pc5arX-ClUCFkcuhm-r25A
-  source: Store
-  version: 2.5.6
-  actions:
-  - id: ibLGpWMVl0WpymA3IuLd9A
-    name: Type text (using ADB)
-    description: Type {{keys}} in {{element}}
-    className: io.testproject.addons.mobile.android.element.SendKeysWithADB
-  minSdkLevel: 2
-  minSdkVersion: 0.65.0
-  sdkGeneration: 1
-  language: Java
-  hash: 140AD48B8ED975ECCAD09CB2571D8B8B8EAACE7087EF82354FD21148115309B8
+addons: []
