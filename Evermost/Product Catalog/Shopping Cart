@@ -1,7 +1,7 @@
-id: V9noqI1NMEuhVjL0nVv3IQ
+id: aa3vtN2lZkCBJwMUzmokzg
 projectId: cynE__bdGkC8Pkdx8kGrxA
 projectName: evermos mobile
-created: 2022-09-17T21:13:41.6272091Z
+created: 2022-09-17T21:18:25.4766280Z
 protocol: 1
 tests:
 - id: lamg-6DYz0WRqsVF76ERpA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-09-17T20:57:42.0000000
-  modificationDate: 2022-09-17T21:13:39.0000000
+  modificationDate: 2022-09-17T21:16:19.0000000
   settings:
     automationAssistant: true
     deviceId: QV7107ZC25
@@ -355,33 +355,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: OghhFdtJYEWHkkN9s5MJsA
+  - id: r79u6y0f8UahEnltSyGzcQ
     enabled: true
     invertResult: false
     order: 17
     repeat: 1
     type: Action
-    elementId: MzKpLD7njkqnLhEY35VwSw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: q_uC2bcSk0aD8iOE98k3Fg
-    enabled: true
-    invertResult: false
-    order: 18
-    repeat: 1
-    type: Action
-    elementId: MzKpLD7njkqnLhEY35VwSw
+    elementId: UomskhqvAUeTpyrq0F162A
     settings:
       sleepTime: -1
       timeout: -1
@@ -398,10 +378,37 @@ tests:
   - id: T3Y_bnkr-U2L020UxvThFQ
     enabled: true
     invertResult: false
+    order: 18
+    repeat: 1
+    type: Addon
+    elementId: UomskhqvAUeTpyrq0F162A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 05d1x6Qh-EagtIPJtBxpEw
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: DKI JAKARTA
+      direction: Input
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kCY-nGLELEWc8QhMlHeVog
+    enabled: true
+    invertResult: false
     order: 19
     repeat: 1
     type: Action
-    elementId: UomskhqvAUeTpyrq0F162A
+    elementId: 1iIRbblB-k-uq84Ykas93w
     settings:
       sleepTime: -1
       timeout: -1
@@ -415,13 +422,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: r79u6y0f8UahEnltSyGzcQ
+  - id: yrsqB_mEZk21s_-YG3cypg
     enabled: true
     invertResult: false
     order: 20
     repeat: 1
     type: Action
-    elementId: UomskhqvAUeTpyrq0F162A
+    elementId: nAOw0c3zW0e3UgVNaiU6_Q
     settings:
       sleepTime: -1
       timeout: -1
@@ -435,13 +442,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: TKoK53c_qU-F3i5aZvylUQ
+  - id: WAI4hsERWk2TA0ctn_0a8w
     enabled: true
     invertResult: false
     order: 21
     repeat: 1
     type: Action
-    elementId: UomskhqvAUeTpyrq0F162A
+    elementId: AJ_z2R_9kEa-jpfj7cJYtg
     settings:
       sleepTime: -1
       timeout: -1
@@ -698,5 +705,66 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]
     priority: 1
+- id: 1iIRbblB-k-uq84Ykas93w
+  name: DKI Jakarta
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDg
+    name: android.widget.CheckBox
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.CheckBox[@content-desc = 'DKI Jakarta']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.CheckBox[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.CheckBox[1]
+    priority: 2
+- id: nAOw0c3zW0e3UgVNaiU6_Q
+  name: Simpan
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.Button[@content-desc = 'Simpan']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View/android.widget.Button
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]
+    priority: 2
+- id: AJ_z2R_9kEa-jpfj7cJYtg
+  name: Terapkan
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.Button[@content-desc = 'Terapkan']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View/android.widget.Button
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]
+    priority: 2
 projectParameters: []
-addons: []
+addons:
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: 05d1x6Qh-EagtIPJtBxpEw
+    name: Type text (if visible)
+    description: Type {{text}} in {{element}} if visible
+    className: io.testproject.addon.TypeActions.TypeTextIfVisibleAndroid
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
